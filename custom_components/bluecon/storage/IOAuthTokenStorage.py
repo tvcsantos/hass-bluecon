@@ -1,6 +1,6 @@
 import abc
 
-from bluecon.oauth.OAuthToken import OAuthToken
+from custom_components.bluecon.oauth.OAuthToken import OAuthToken
 
 class IOAuthTokenStorage(metaclass = abc.ABCMeta):
     @classmethod

@@ -1,9 +1,9 @@
 from json import JSONEncoder
 
-from bluecon.model.AccessDoor import AccessDoor
-from bluecon.model.Pairing import Pairing
-from bluecon.model.User import User
-from bluecon.model.DeviceInfo import DeviceInfo
+from custom_components.bluecon.model.AccessDoor import AccessDoor
+from custom_components.bluecon.model.Pairing import Pairing
+from custom_components.bluecon.model.User import User
+from custom_components.bluecon.model.DeviceInfo import DeviceInfo
 
 class BlueConJSONEncoder(JSONEncoder):
     def default(self, o):

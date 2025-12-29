@@ -1,4 +1,4 @@
-from bluecon.model.AccessDoor import AccessDoor
+from custom_components.bluecon.model.AccessDoor import AccessDoor
 
 
 class Pairing:

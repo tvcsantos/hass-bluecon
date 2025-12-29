@@ -5,7 +5,7 @@ from homeassistant.components.lock import LockState
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
-from bluecon import BlueConAPI
+from custom_components.bluecon import BlueConAPI
 
 async def async_setup_entry(hass: HomeAssistant, config: ConfigEntry, async_add_entities):
     bluecon = hass.data[DOMAIN][config.entry_id]
