@@ -1,4 +1,4 @@
-from custom_components.bluecon.notifications.INotification import INotification
+from .INotification import INotification
 
 
 @INotification.register

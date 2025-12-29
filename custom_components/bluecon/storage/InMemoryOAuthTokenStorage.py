@@ -1,5 +1,5 @@
-from custom_components.bluecon.oauth.OAuthToken import OAuthToken
-from custom_components.bluecon.storage.IOAuthTokenStorage import IOAuthTokenStorage
+from bluecon.oauth.OAuthToken import OAuthToken
+from .IOAuthTokenStorage import IOAuthTokenStorage
 
 
 @IOAuthTokenStorage.register

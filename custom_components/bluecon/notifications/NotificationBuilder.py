@@ -1,6 +1,6 @@
-from custom_components.bluecon.notifications.CallEndNotification import CallEndNotification
-from custom_components.bluecon.notifications.CallNotification import CallNotification
-from custom_components.bluecon.notifications.INotification import INotification
+from .CallEndNotification import CallEndNotification
+from .CallNotification import CallNotification
+from .INotification import INotification
 
 
 class NotificationBuilder:
