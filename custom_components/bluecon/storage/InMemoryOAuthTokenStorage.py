@@ -1,4 +1,4 @@
-from bluecon.oauth.OAuthToken import OAuthToken
+from ..oauth.OAuthToken import OAuthToken
 from .IOAuthTokenStorage import IOAuthTokenStorage
 
 

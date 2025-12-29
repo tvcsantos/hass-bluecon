@@ -1,5 +1,6 @@
 import asyncio
-from custom_components.bluecon import IOAuthTokenStorage, OAuthToken
+from .storage import IOAuthTokenStorage
+from .oauth import OAuthToken
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.storage import Store
 from .const import DOMAIN

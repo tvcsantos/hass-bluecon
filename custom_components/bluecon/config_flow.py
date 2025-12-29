@@ -13,9 +13,10 @@ import voluptuous as vol
 from .ConfigFolderOAuthTokenStorage import ConfigFolderOAuthTokenStorage
 from .ConfigFolderNotificationInfoStorage import ConfigFolderNotificationInfoStorage
 
-from custom_components.bluecon import BlueConAPI, IOAuthTokenStorage, INotificationInfoStorage
+from .BlueConAPI import BlueConAPI
+from .storage import IOAuthTokenStorage, INotificationInfoStorage
 
-from custom_components.bluecon.const import CONF_LOCK_STATE_RESET, CONF_PACKAGE_NAME, CONF_APP_ID, CONF_PROJECT_ID, CONF_SENDER_ID
+from .const import CONF_LOCK_STATE_RESET, CONF_PACKAGE_NAME, CONF_APP_ID, CONF_PROJECT_ID, CONF_SENDER_ID
 
 from . import DOMAIN
 

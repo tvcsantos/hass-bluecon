@@ -11,7 +11,7 @@ from homeassistant.const import (
     Platform
 )
 from homeassistant.helpers.dispatcher import dispatcher_send
-from . import BlueConAPI
+from .BlueConAPI import BlueConAPI
 from .notifications import INotification, CallNotification, CallEndNotification
 from .storage import IOAuthTokenStorage, INotificationInfoStorage
 from .oauth import OAuthToken
