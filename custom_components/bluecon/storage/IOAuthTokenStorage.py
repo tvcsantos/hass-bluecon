@@ -1,6 +1,6 @@
 import abc
 
-from ..oauth import OAuthToken
+from ..oauth.OAuthToken import OAuthToken
 
 class IOAuthTokenStorage(metaclass = abc.ABCMeta):
     @classmethod

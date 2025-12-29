@@ -1,5 +1,5 @@
 import asyncio
-from .notifications import INotificationInfoStorage
+from .storage import INotificationInfoStorage
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.storage import Store
