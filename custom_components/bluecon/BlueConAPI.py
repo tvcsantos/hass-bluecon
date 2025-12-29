@@ -6,19 +6,19 @@ import hashlib
 from typing import Callable, List
 from threading import Thread
 
-from custom_components.bluecon.model.AccessDoor import AccessDoor
-from custom_components.bluecon.model.Pairing import Pairing
-from custom_components.bluecon.model.User import User
-from custom_components.bluecon.model.CallLog import CallLog
-from custom_components.bluecon.model.DeviceInfo import DeviceInfo
-from custom_components.bluecon.notifications.INotification import INotification
-from custom_components.bluecon.notifications.NotificationBuilder import NotificationBuilder
-from custom_components.bluecon.oauth.OAuthService import OAuthService
-from custom_components.bluecon.oauth.OAuthToken import OAuthToken
-from custom_components.bluecon.storage.IOAuthTokenStorage import IOAuthTokenStorage
-from custom_components.bluecon.storage.InMemoryOAuthTokenStorage import InMemoryOAuthTokenStorage
-from custom_components.bluecon.storage.INotificationInfoStorage import INotificationInfoStorage
-from custom_components.bluecon.storage.FileNotificationInfoStorage import FileNotificationInfoStorage
+from .model.AccessDoor import AccessDoor
+from .model.Pairing import Pairing
+from .model.User import User
+from .model.CallLog import CallLog
+from .model.DeviceInfo import DeviceInfo
+from .notifications.INotification import INotification
+from .notifications.NotificationBuilder import NotificationBuilder
+from .oauth.OAuthService import OAuthService
+from .oauth.OAuthToken import OAuthToken
+from .storage.IOAuthTokenStorage import IOAuthTokenStorage
+from .storage.InMemoryOAuthTokenStorage import InMemoryOAuthTokenStorage
+from .storage.INotificationInfoStorage import INotificationInfoStorage
+from .storage.FileNotificationInfoStorage import FileNotificationInfoStorage
 
 from push_receiver import PushReceiver
 from push_receiver.android_fcm_register import AndroidFCM
