@@ -14,7 +14,8 @@ from .ConfigFolderOAuthTokenStorage import ConfigFolderOAuthTokenStorage
 from .ConfigFolderNotificationInfoStorage import ConfigFolderNotificationInfoStorage
 
 from .BlueConAPI import BlueConAPI
-from .storage import IOAuthTokenStorage, INotificationInfoStorage
+from .storage.IOAuthTokenStorage import IOAuthTokenStorage
+from .storage.INotificationInfoStorage import INotificationInfoStorage
 
 from .const import CONF_LOCK_STATE_RESET, CONF_PACKAGE_NAME, CONF_APP_ID, CONF_PROJECT_ID, CONF_SENDER_ID
 

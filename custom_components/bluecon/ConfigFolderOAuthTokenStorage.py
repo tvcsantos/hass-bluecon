@@ -1,6 +1,6 @@
 import asyncio
-from .storage import IOAuthTokenStorage
-from .oauth import OAuthToken
+from .storage.IOAuthTokenStorage import IOAuthTokenStorage
+from .oauth.OAuthToken import OAuthToken
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.storage import Store
 from .const import DOMAIN

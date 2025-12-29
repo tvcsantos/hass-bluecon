@@ -12,9 +12,12 @@ from homeassistant.const import (
 )
 from homeassistant.helpers.dispatcher import dispatcher_send
 from .BlueConAPI import BlueConAPI
-from .notifications import INotification, CallNotification, CallEndNotification
-from .storage import IOAuthTokenStorage, INotificationInfoStorage
-from .oauth import OAuthToken
+from .notifications.INotification import INotification
+from .notifications.CallNotification import CallNotification
+from .notifications.CallEndNotification import CallEndNotification
+from .storage.IOAuthTokenStorage import IOAuthTokenStorage
+from .storage.INotificationInfoStorage import INotificationInfoStorage
+from .oauth.OAuthToken import OAuthToken
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.config_entries import ConfigEntry
 from .const import CONF_PACKAGE_NAME, CONF_APP_ID, CONF_PROJECT_ID, CONF_SENDER_ID
